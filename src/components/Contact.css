@@ -1,0 +1,49 @@
+.contact{
+  
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    color: #000;
+  
+}
+.contact-container {
+  text-align: center;
+}
+
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between email and LinkedIn */
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.links a {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Inherits the normal text color */
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.note-container {
+  width: 200px;
+  height: 200px;
+  background-color: #f5efeb; /* Light yellow like a sticky note */
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  font-style: italic;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
